@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Starscream",
+        "printedName": "Starscream",
+        "declKind": "Import",
+        "moduleName": "CustomFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDK",
         "printedName": "SDK",
@@ -66,6 +73,27 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "whatIsStarscream",
+            "printedName": "whatIsStarscream()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework3SDKV16whatIsStarscreamyyFZ",
+            "mangledName": "$s15CustomFramework3SDKV16whatIsStarscreamyyFZ",
+            "moduleName": "CustomFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -83,14 +111,14 @@
     {
       "filePath": "\/Users\/derickramer\/Documents\/Projects\/Rebeloper\/Framework\/CustomFramework\/CustomFramework\/SDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 174,
+      "offset": 192,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/derickramer\/Documents\/Projects\/Rebeloper\/Framework\/CustomFramework\/CustomFramework\/SDK.swift",
       "kind": "Array",
-      "offset": 218,
+      "offset": 236,
       "length": 31,
       "value": "[\"privateKey123\"]"
     }

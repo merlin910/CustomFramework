@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CustomFramework
 @_exported import CustomFramework
 import Foundation
+import Starscream
 import Swift
 import _Concurrency
 import _StringProcessing
@@ -10,4 +11,5 @@ import _SwiftConcurrencyShims
 public struct SDK {
   public static func configure(apiKey: Swift.String)
   public static func doSomeWork()
+  public static func whatIsStarscream()
 }
